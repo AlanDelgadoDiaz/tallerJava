@@ -3,32 +3,31 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package AbstractFactory;
+package FactoryMethod;
 
 /**
  *
  * @author Qyo_J
  */
-public class Laptop extends Computer {
-
+public class Netbook extends Computer{
+    
     @Override
     public void configurar() {
-        System.out.println("configurar Laptop");
+        System.out.println("configurar Netbook");
     }
 
     @Override
     public void ensamblar() {
-        System.out.println("ensamblando laptop");
+        System.out.println("ensamblando Netbook");
     }
 
     @Override
     public void instalarS() {
-        System.out.println("instalacion de software de laptop");
+        System.out.println("instalacion de software de Netbook");
     }
 
     @Override
     public void embalar() {
-        System.out.println("embalar laptop"); 
+        System.out.println("embalar Netbook"); 
     }
-    
 }

@@ -3,31 +3,32 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package AbstractFactory;
+package FactoryMethod;
 
 /**
  *
  * @author Qyo_J
  */
-public class Desktop extends Computer{
-     @Override
+public class Laptop extends Computer {
+
+    @Override
     public void configurar() {
-        System.out.println("configurar Desktop");
+        System.out.println("configurar Laptop");
     }
 
     @Override
     public void ensamblar() {
-        System.out.println("ensamblando Desktop");
+        System.out.println("ensamblando laptop");
     }
 
     @Override
     public void instalarS() {
-        System.out.println("instalacion de software de Desktop");
+        System.out.println("instalacion de software de laptop");
     }
 
     @Override
     public void embalar() {
-        System.out.println("embalar Desktop"); 
+        System.out.println("embalar laptop"); 
     }
     
 }
