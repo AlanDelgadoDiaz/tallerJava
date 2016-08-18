@@ -10,6 +10,8 @@ package FactoryMethod;
  * @author Qyo_J
  */
 public class Laptop extends Computer {
+   
+    
 
     @Override
     public void configurar() {

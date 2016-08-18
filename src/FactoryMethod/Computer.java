@@ -11,12 +11,12 @@ package FactoryMethod;
  */
 public abstract class Computer {
 
-    public abstract void  configurar() ;
+    protected abstract void  configurar() ;
 
-    public abstract void  ensamblar();
+    protected abstract void  ensamblar();
 
-    public  abstract void  instalarS() ;
+    protected  abstract void  instalarS() ;
 
-    public abstract void  embalar();
+    protected abstract void  embalar();
 
 }
