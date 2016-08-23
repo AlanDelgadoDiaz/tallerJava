@@ -5,8 +5,6 @@
  */
 package BuilderComputadoraa;
 
-import builder.Avion;
-
 /**
  *
  * @author Qyo_J
