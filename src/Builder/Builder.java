@@ -5,10 +5,7 @@
  */
 package Builder;
 
-/**
- *
- * @author Carlos
- */
+
 public abstract class Builder 
 {
 

@@ -5,10 +5,7 @@
  */
 package Builder;
 
-/**
- *
- * @author Carlos
- */
+
 public class BoeingBuilder extends Builder
 {
 
